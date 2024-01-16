@@ -104,8 +104,7 @@ func_list = [Obtained_Marks, Percentage, Grade, Pass_Marks, Total_Marks, Average
 # Subjects and Entries for Students000
 Label(text="Student Result Manager", font="lucinda 17 bold", bg="black", fg="white", pady=10).pack(fill=X, padx=1, pady=1)
 subjects = Frame(root, bg="#23292E")
-subject = ["English-A", "English-B", "Urdu-A", "Urdu-B", "Math", "Physics", "Chemistry", "Social Studies", "Islamiat",
-           "Arabic", "Drawing", "Computer Science", "Biology", "Economics", "Out Of", "Class"]
+subject = ["English-A", "English-B", "Urdu-A", "Urdu-B", "Math", "Physics", "Chemistry", "Social Studies", "Islamiat", "Arabic", "Drawing", "Computer Science", "Biology", "Economics", "Out Of", "Class"]
 # Entry values
 English_A, English_B, Urdu_A, Urdu_B, Math, Physics, Chemistry, Social_Studies, Islamiat, Arabic, Drawing, Computer_Science, Biology, Economics, Out_Off, Class = StringVar(), StringVar(), StringVar(), StringVar(), StringVar(), StringVar(), StringVar(), StringVar(), StringVar(), StringVar(), StringVar(), StringVar(), StringVar(), StringVar(), StringVar(), StringVar()
 # Entry values list
